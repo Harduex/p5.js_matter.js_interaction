@@ -1,0 +1,21 @@
+{
+  "name": "p5",
+  "version": "1.0.0",
+  "description": "p5",
+  "main": "Server.js",
+  "scripts": {
+    "start": "npx sass --watch build/styles/style.scss:build/styles/style.css & node Server.js",
+    "watch-sass": "npx sass --watch build/styles/style.scss:build/styles/style.css",
+    "live-server": "node Server.js"
+  },
+  "keywords": [
+    "p5"
+  ],
+  "author": "Simeon Dimitrov",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
